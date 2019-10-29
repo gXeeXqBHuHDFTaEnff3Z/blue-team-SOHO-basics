@@ -6,3 +6,21 @@ This repository is a curated collection for cybersecurity defenders in the Small
 - can be setup and verified in less than a workday
 - are relatively low on maintenance (so high in automation)
 - have a good to excellent cost/benefit ratio
+
+
+### classification
+| class          | description |
+|----------------|-------------|
+| Everybody      |  can be installed for and adopted by non-technical users, with little to no friction or usability degradation |
+| Harder         |  will have mild to medium friction, may require regular attention by sysadmins |
+| Serious        |  for use cases where security comes before usability. can require significant regular attention. If you consider yourself the target of serious actors, please contact experienced people and mind your personal safety and security |
+
+### categories
+| category | description                     |
+|----------|---------------------------------|
+| user     | applies on a per-user basis     |
+| client   | applies to every client         |
+| Android  | applies only to Android clients |
+| Windows  | applies only to Windows clients |
+| Network  | applies on a per-network basis  |
+| Website  | applies on a per-internet-website basis |

@@ -7,6 +7,10 @@ This repository is a curated collection for cybersecurity defenders in the Small
 - are relatively low on maintenance (so high in automation)
 - have a good to excellent cost/benefit ratio
 
+## how to use this repo
+1. download [TTP.csv](https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv)
+2. open it in libreoffice calc / Excel / [google tables](https://docs.google.com/spreadsheets/u/0/)
+3. filter categories as applicable to your environment
 
 ### classification
 | class          | description |

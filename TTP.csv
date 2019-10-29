@@ -56,7 +56,7 @@ status,classification,category,TTP,source
 ,Harder,Network,disable unused ip protocols,
 ,Harder,Network,guest access wlan (limited internet acess),
 ,Harder,Network,secondary internet access (via mobile carrier),
-,Seriois,User,opsec,https://twitter.com/Snowden/status/1165395195476791299
+,Serious,User,OPSEC,https://twitter.com/Snowden/status/1165395195476791299
 ,Serious,Client,Qubes OS (whonix/TOR),https://www.qubes-os.org/downloads/
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/
 ,Serious,Client,Tails OS,https://tails.boum.org/

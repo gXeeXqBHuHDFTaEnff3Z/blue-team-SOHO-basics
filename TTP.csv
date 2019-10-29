@@ -12,7 +12,7 @@ status,classification,category,TTP,source
 ,Everybody,Client,os updates,
 ,Everybody,Client,malware scanner (Windows Defender / ClamAV),
 ,Everybody,Client,HTTPSEverywhere,https://www.eff.org/Https-Everywhere
-,Everybody,Client,at rest encryption (Veracrypt, Bitlocker, etc.),
+,Everybody,Client,"at rest encryption (Veracrypt, Bitlocker, etc.)",
 ,Everybody,Client,PIN / Password protection,
 ,Everybody,Client,limit notifications to necessary apps,
 ,Everybody,Client,set mobile Device SIM PIN,

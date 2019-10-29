@@ -1,6 +1,6 @@
 How to setup a network from scratch:
 
-1. draw a network diagram with
+- [ ] [draw](https://www.draw.io/) a network diagram with
   - compartmentalization
     - IP subnet(s)
     - DMZ

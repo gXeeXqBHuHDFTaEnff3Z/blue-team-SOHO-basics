@@ -25,7 +25,7 @@ status,classification,category,TTP,source
 ,Everybody,Windows,install basic software and keep it updated,https://ninite.com
 ,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
-,Everybody,Network,Hardening: limit network protocols, ports, services,
+,Everybody,Network,"Hardening: limit network protocols, ports, services",
 ,Everybody,Network,firewall,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,

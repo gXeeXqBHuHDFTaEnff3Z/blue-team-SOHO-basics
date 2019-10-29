@@ -7,6 +7,7 @@ How to setup a network from scratch:
   - devices inlcuding name and ip (or dhcp range)
     - firewall / internet gateway
     - switch / wireless AP
+    - servers
     - client
     
   

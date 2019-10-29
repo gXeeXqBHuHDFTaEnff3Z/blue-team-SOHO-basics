@@ -1,4 +1,4 @@
-# Tactics, Techniques, and Procedures for SOHO [blue team](https://en.wikipedia.org/wiki/Blue_team_(computer_security))a
+# Tactics, Techniques, and Procedures for SOHO [blue team](https://en.wikipedia.org/wiki/Blue_team_(computer_security))s
 
 This repository is a curated collection for cybersecurity defenders in the Small Office / Home Office environment, which means we only include things that...
 

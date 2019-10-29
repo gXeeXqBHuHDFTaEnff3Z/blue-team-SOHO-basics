@@ -23,9 +23,10 @@ status,classification,category,TTP,source
 ,Everybody,Windows,Bitlocker pre boot auth („Start-PIN“),https://www.howtogeek.com/262720/how-to-enable-a-pre-boot-bitlocker-pin-on-windows/
 ,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
 ,Everybody,Windows,install basic software and keep it updated,https://ninite.com
-,Everybody,Network,firewall,
 ,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
+,Everybody,Network,Hardening: limit network protocols, ports, services,
+,Everybody,Network,firewall,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,
 ,Everybody,Network,DECT encryption,
@@ -43,9 +44,11 @@ status,classification,category,TTP,source
 ,Harder,Client,regular offline backup calendar,
 ,Harder,Client,verify tracking minimzation,https://panopticlick.eff.org/
 ,Harder,Windows,disable unused ip protocols,https://support.microsoft.com/de-de/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users
+,Harder,Windows,admin privileges only for sysadmins,
 ,Harder,Android,Signal with 2nd phone number,https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/
 ,Harder,Android,Signal: verify safety numbers with contacts,https://support.signal.org/hc/en-us/articles/360007060632
 ,Harder,Android,limit mobile data usage,
+,Harder,Network,compartmenalization: VLANs,
 ,Harder,Network,pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
 ,Harder,Network,DNS server pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
 ,Harder,Network,DNS encryption (DNSSEC / DoT / DoH),
@@ -60,6 +63,7 @@ status,classification,category,TTP,source
 ,Serious,Client,Rotate / randomize MAC,
 ,Serious,Android,always on vpn,https://www.heise.de/ct/hotline/VPN-als-Standard-unter-Android-2251877.html
 ,Serious,Network,monitoring: get notified from shodan,https://monitor.shodan.io/
+,Serious,Network,network security monitoring,https://securityonion.net/
 ,Serious,Network,block/redirect unknown caller ids,
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
 ,Serious,Network,vpn ipsec,

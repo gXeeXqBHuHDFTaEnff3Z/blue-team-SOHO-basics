@@ -1,60 +1,62 @@
-Status,classification,category,TTP,source
-,Everybody,User,Meldung bei Mail-Datenleak,https://haveibeenpwned.com/NotifyMe
+status,classification,category,TTP,source
+,Everybody,User,get notfied about your new data leaks,https://haveibeenpwned.com/NotifyMe
 ,Everybody,User,2 factor authentication,https://twofactorauth.org/
 ,Everybody,User,lockdown accounts: answers to security questions,
 ,Everybody,User,lockdown accounts: strong passphrases,
-,Everybody,User,"disable costly calls with your provider (e. g. to foreign countries)",
-,Everybody,Client,Passwortmanager,https://keepass.info/download.html
-,Everybody,Client,Block third party cookies,https://support.mozilla.org/en-US/kb/disable-third-party-cookies
-,Everybody,Client,Ad Blocker,https://addons.mozilla.org/de/firefox/addon/adblock-plus/
-,Everybody,Client,Backup,https://restic.net/
-,Everybody,Client,OS Updates,
-,Everybody,Client,Virenscanner (Defender / ClamAV),
+,Everybody,User,disable costly calls with your provider (e. g. to foreign countries),
+,Everybody,Client,disable unused apps,
+,Everybody,Client,use password manager,https://keepass.info/download.html
+,Everybody,Client,block third party cookies,https://support.mozilla.org/en-US/kb/disable-third-party-cookies
+,Everybody,Client,Ad blocker,https://addons.mozilla.org/de/firefox/addon/adblock-plus/
+,Everybody,Client,setup automatic encrypted backup,https://restic.net/
+,Everybody,Client,os updates,
+,Everybody,Client,malware scanner (Windows Defender / ClamAV),
 ,Everybody,Client,HTTPSEverywhere,https://www.eff.org/Https-Everywhere
-,Everybody,Client,"at rest encryption (Veracrypt, Bitlocker, etc.)",
+,Everybody,Client,at rest encryption (Veracrypt, Bitlocker, etc.),
 ,Everybody,Client,PIN / Password protection,
 ,Everybody,Client,limit notifications to necessary apps,
-,Everybody,Client,Mobile Device SIM PIN,
-,Everybody,Android,disable unused apps,
-,Everybody,Windows,Bloatware-Installation verhindern,https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg
-,Everybody,Windows,Telemetrie ausschalten via Powershell,https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html
-,Everybody,Windows,Bitlocker auf CPU erzwingen und aktivieren,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives
+,Everybody,Client,set mobile Device SIM PIN,
+,Everybody,Windows,remove persistent bloatware,https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg
+,Everybody,Windows,telemtry deactivation,https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html
+,Everybody,Windows,Bitlocker: enforce software-crypt and enable,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives
 ,Everybody,Windows,Bitlocker pre boot auth („Start-PIN“),https://www.howtogeek.com/262720/how-to-enable-a-pre-boot-bitlocker-pin-on-windows/
-,Everybody,Windows,"Bitlocker verifizieren, dass kein key in der cloud",https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
-,Everybody,Network,Firewall,
-,Everybody,Network,"DNS Server (ISP, 1.1.1.1, 9.9.9.9)",
+,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
+,Everybody,Windows,install basic software and keep it updated,https://ninite.com
+,Everybody,Network,firewall,
+,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,
 ,Everybody,Network,DECT encryption,
+,Everybody,Website,automatic security check,https://www.immuniweb.com/free/
 ,Harder,User,Canaries,https://canarytokens.org/generate
 ,Harder,User,OSINT recon yourself,
 ,Harder,User,Privacy-First Mail Provider,https://posteo.de/de
-,Harder,User,Familenkonfiguration,https://families.google.com/intl/de/familylink/
-,Harder,User,mobile carrier PIN gegen sim swapping,https://www.wired.com/story/sim-swap-attack-defend-phone/
-,Harder,Client,"Monitoring (Sysmon, etc.)",https://github.com/SwiftOnSecurity/sysmon-config
-,Harder,Client,Verify Tracking,https://panopticlick.eff.org/
+,Harder,User,familiy configuration,https://families.google.com/intl/de/familylink/
+,Harder,User,set mobile carrier PIN against sim swapping,https://www.wired.com/story/sim-swap-attack-defend-phone/
+,Harder,Client,monitoring: sysmon,https://github.com/SwiftOnSecurity/sysmon-config
 ,Harder,Client,Privacy-First Search Engine,https://duckduckgo.com/
 ,Harder,Client,Tor Browser,https://www.torproject.org/download/
 ,Harder,Client,review/limit app permissions,
 ,Harder,Client,BIOS access with password only,
 ,Harder,Client,regular offline backup calendar,
+,Harder,Client,verify tracking minimzation,https://panopticlick.eff.org/
 ,Harder,Windows,disable unused ip protocols,https://support.microsoft.com/de-de/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users
 ,Harder,Android,Signal with 2nd phone number,https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/
 ,Harder,Android,limit mobile data usage,
 ,Harder,Network,pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
-,Harder,Network,DNS-Server pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
-,Harder,Network,DNS Verschlüsselung (DNSSEC / DoT / DoH),
-,Harder,Network,Check zur external footprint with shodan,https://linuxsecurityblog.com/2019/09/09/find-vulnerable-devices-on-the-internet-with-shodan/
+,Harder,Network,DNS server pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
+,Harder,Network,DNS encryption (DNSSEC / DoT / DoH),
+,Harder,Network,check external footprint on shodan,https://linuxsecurityblog.com/2019/09/09/find-vulnerable-devices-on-the-internet-with-shodan/
 ,Harder,Network,disable unused ip protocols,
 ,Harder,Network,guest access wlan (limited internet acess),
-,Harder,Network,secondary internet access (mobile carrier),
+,Harder,Network,secondary internet access (via mobile carrier),
 ,Serious,Client,Qubes OS (whonix/TOR),https://www.qubes-os.org/downloads/
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/
 ,Serious,Client,Tails OS,https://tails.boum.org/
 ,Serious,Client,Rotate / randomize MAC,
 ,Serious,Android,always on vpn,https://www.heise.de/ct/hotline/VPN-als-Standard-unter-Android-2251877.html
-,Serious,Network,Monitoring external,https://monitor.shodan.io/
+,Serious,Network,monitoring: get notified from shodan,https://monitor.shodan.io/
 ,Serious,Network,block/redirect unknown caller ids,
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
 ,Serious,Network,vpn ipsec,

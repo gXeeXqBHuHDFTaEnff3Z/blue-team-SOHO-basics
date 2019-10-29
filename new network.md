@@ -4,7 +4,7 @@ How to setup a network from scratch:
   - compartmentalization
     - IP subnet(s)
     - DMZ
-  - devices inlcuding name and ip (or ip range)
+  - devices inlcuding name and ip (or dhcp range)
     - firewall / internet gateway
     - switch / wireless AP
     - client

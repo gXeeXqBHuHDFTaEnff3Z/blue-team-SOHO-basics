@@ -16,6 +16,7 @@ status,classification,category,TTP,source
 ,Everybody,Client,PIN / Password protection,
 ,Everybody,Client,limit notifications to necessary apps,
 ,Everybody,Client,set mobile Device SIM PIN,
+,Everybody,Android,messenger: signal,https://twitter.com/Snowden/status/986277159252750336
 ,Everybody,Windows,remove persistent bloatware,https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg
 ,Everybody,Windows,telemtry deactivation,https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html
 ,Everybody,Windows,Bitlocker: enforce software-crypt and enable,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives
@@ -43,6 +44,7 @@ status,classification,category,TTP,source
 ,Harder,Client,verify tracking minimzation,https://panopticlick.eff.org/
 ,Harder,Windows,disable unused ip protocols,https://support.microsoft.com/de-de/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users
 ,Harder,Android,Signal with 2nd phone number,https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/
+,Harder,Android,Signal: verify safety numbers with contacts,https://support.signal.org/hc/en-us/articles/360007060632
 ,Harder,Android,limit mobile data usage,
 ,Harder,Network,pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
 ,Harder,Network,DNS server pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
@@ -51,6 +53,7 @@ status,classification,category,TTP,source
 ,Harder,Network,disable unused ip protocols,
 ,Harder,Network,guest access wlan (limited internet acess),
 ,Harder,Network,secondary internet access (via mobile carrier),
+,Seriois,User,opsec,https://twitter.com/Snowden/status/1165395195476791299
 ,Serious,Client,Qubes OS (whonix/TOR),https://www.qubes-os.org/downloads/
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/
 ,Serious,Client,Tails OS,https://tails.boum.org/

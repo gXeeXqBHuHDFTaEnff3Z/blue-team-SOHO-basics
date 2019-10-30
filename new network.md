@@ -15,8 +15,8 @@
     - client
     
 ### (2) secure configurations
-- [ ] secure configuration per device using (TTP.csv)[https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv]
-- [ ] secure configuration per user using (TTP.csv)[https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv]
+- [ ] secure configuration per device using [TTP.csv](https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv)
+- [ ] secure configuration per user using [TTP.csv](https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv)
 - [ ] verify connfigurations
 
 ### (3) user training

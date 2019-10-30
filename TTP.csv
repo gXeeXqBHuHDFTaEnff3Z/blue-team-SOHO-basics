@@ -40,6 +40,7 @@ status,classification,category,TTP,source
 ,Harder,Client,monitoring: sysmon,https://github.com/SwiftOnSecurity/sysmon-config
 ,Harder,Client,Privacy-First Search Engine,https://duckduckgo.com/
 ,Harder,Client,Tor Browser,https://www.torproject.org/download/
+,Harder,Client,NoScript (included in TOR Browser),https://addons.mozilla.org/de/firefox/addon/noscript/
 ,Harder,Client,review/limit app permissions,
 ,Harder,Client,BIOS access with password only,
 ,Harder,Client,regular offline backup calendar,

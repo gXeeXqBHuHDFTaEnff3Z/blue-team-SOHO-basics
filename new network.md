@@ -20,10 +20,14 @@
 - [ ] verify connfigurations
 
 ### (3) user training
-- [ ] how to use password manager
+- [ ] how to boot encryped devices
+- [ ] how to unlock devices/user account
 - [ ] how to use 2FA
-- [ ] how to regularly create an offline backup
+- [ ] how to use password manager
+- [ ] how to regularly create an encrypted offline backup
 - [ ] whom to call on incident response and HaveIBeenPwned notifications
+- [ ] [Signal contact verification](https://support.signal.org/hc/en-us/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-)
+
 
     
   

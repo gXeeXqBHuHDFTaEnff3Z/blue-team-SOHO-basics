@@ -52,9 +52,8 @@ status,classification,category,TTP,source
 ,Harder,Android,limit mobile data usage,
 ,Harder,Network,compartmenalization: VLANs,
 ,Harder,Network,DNS filter/proxy: pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
-,Harder,Network,HTTP filter/proxy: privoxy,https://discourse.pi-hole.net/t/privoxy-and-pi-hole/70
-,Harder,Network,DNS server pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
 ,Harder,Network,DNS encryption (DNSSEC / DoT / DoH),
+,Harder,Network,HTTP filter/proxy: privoxy,https://discourse.pi-hole.net/t/privoxy-and-pi-hole/70
 ,Harder,Network,check external footprint on shodan,https://linuxsecurityblog.com/2019/09/09/find-vulnerable-devices-on-the-internet-with-shodan/
 ,Harder,Network,disable unused ip protocols,
 ,Harder,Network,guest access wlan (limited internet acess),

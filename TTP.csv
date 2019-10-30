@@ -68,5 +68,5 @@ status,classification,category,TTP,source
 ,Serious,Network,network security monitoring,https://securityonion.net/
 ,Serious,Network,block/redirect unknown caller ids,
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
-,Serious,Network,vpn ipsec,
+,Serious,Network,VPN IPSEC,https://openvpn.net/
 ,Serious,Network,honeypots,

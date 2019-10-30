@@ -63,9 +63,10 @@ status,classification,category,TTP,source
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/
 ,Serious,Client,Tails OS,https://tails.boum.org/
 ,Serious,Client,Rotate / randomize MAC,
+,Serious,Client,"desolder mic, use selecitively connected earbuds instead",https://twitter.com/Snowden/status/968256036892299264
 ,Serious,Android,always on vpn,https://www.heise.de/ct/hotline/VPN-als-Standard-unter-Android-2251877.html
 ,Serious,Network,monitoring: get notified from shodan,https://monitor.shodan.io/
-,Serious,Network,network security monitoring,https://securityonion.net/
+,Serious,Network,monitoring: network security,https://securityonion.net/
 ,Serious,Network,block/redirect unknown caller ids,
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
 ,Serious,Network,VPN IPSEC,https://openvpn.net/

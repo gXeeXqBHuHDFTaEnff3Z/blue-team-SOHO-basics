@@ -6,12 +6,12 @@ status,classification,category,TTP,source
 ,Everybody,User,disable costly calls with your provider (e. g. to foreign countries),
 ,Everybody,Client,disable unused apps,
 ,Everybody,Client,use password manager,https://keepass.info/download.html
-,Everybody,Client,block third party cookies,https://support.mozilla.org/en-US/kb/disable-third-party-cookies
-,Everybody,Client,Ad blocker,https://addons.mozilla.org/de/firefox/addon/adblock-plus/
+,Everybody,Client,Browser: block third party cookies,https://support.mozilla.org/en-US/kb/disable-third-party-cookies
+,Everybody,Client,Browser: Ad blocker,https://addons.mozilla.org/de/firefox/addon/ublock-origin/
+,Everybody,Client,Browser: HTTPSEverywhere,https://www.eff.org/Https-Everywhere
 ,Everybody,Client,setup automatic encrypted backup,https://restic.net/
 ,Everybody,Client,os updates,
 ,Everybody,Client,malware scanner (Windows Defender / ClamAV),
-,Everybody,Client,HTTPSEverywhere,https://www.eff.org/Https-Everywhere
 ,Everybody,Client,"at rest encryption (Veracrypt, Bitlocker, etc.)",
 ,Everybody,Client,PIN / Password protection,
 ,Everybody,Client,limit notifications to necessary apps,
@@ -39,11 +39,11 @@ status,classification,category,TTP,source
 ,Harder,User,set mobile carrier PIN against sim swapping,https://www.wired.com/story/sim-swap-attack-defend-phone/
 ,Harder,Client,monitoring: sysmon,https://github.com/SwiftOnSecurity/sysmon-config
 ,Harder,Client,Privacy-First Search Engine,https://duckduckgo.com/
-,Harder,Client,Tor Browser,https://www.torproject.org/download/
-,Harder,Client,NoScript (included in TOR Browser),https://addons.mozilla.org/de/firefox/addon/noscript/
+,Harder,Client,Browser: TOR,https://www.torproject.org/download/
+,Harder,Client,Browser: NoScript (included in TOR Browser),https://addons.mozilla.org/de/firefox/addon/noscript/
 ,Harder,Client,review/limit app permissions,
 ,Harder,Client,BIOS access with password only,
-,Harder,Client,regular offline backup calendar,
+,Harder,Client,regular offline backup (reminder in calendar),
 ,Harder,Client,verify tracking minimzation,https://panopticlick.eff.org/
 ,Harder,Windows,disable unused ip protocols,https://support.microsoft.com/de-de/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users
 ,Harder,Windows,admin privileges only for sysadmins,

@@ -1,4 +1,4 @@
-How to setup a network from scratch:
+# How to setup a network from scratch
 
 ### (1) inventory
 - [ ] make table of all hardware devices

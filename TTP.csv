@@ -69,3 +69,4 @@ status,classification,category,TTP,source
 ,Serious,Network,block/redirect unknown caller ids,
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
 ,Serious,Network,vpn ipsec,
+,Serious,Network,honeypots,

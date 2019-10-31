@@ -31,7 +31,9 @@ status,classification,category,TTP,source
 ,Everybody,Network,disable WPS,
 ,Everybody,Network,DECT encryption,
 ,Everybody,Website,automatic security check,https://www.immuniweb.com/free/
+,Everybody,Website,automatic security check II,https://observatory.mozilla.org/
 ,Everybody,Website,automatic TLS test,https://www.ssllabs.com/ssltest/
+,Everybody,Website,automatic tracking test,https://webbkoll.dataskydd.net/de/
 ,Harder,User,Canaries,https://canarytokens.org/generate
 ,Harder,User,OSINT recon yourself,
 ,Harder,User,Privacy-First Mail Provider,https://posteo.de/de

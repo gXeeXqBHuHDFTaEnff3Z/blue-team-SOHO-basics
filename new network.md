@@ -1,6 +1,24 @@
 # How to setup a network from scratch
 
-### (1) inventory
+### (1) functional requirements: what do your users want to do?
+- [ ] communicate via e-mail / chat
+- [ ] communicate via landline / mobile phone
+- [ ] internet access via browser
+- [ ] data storage for...
+  - documents
+  - pictures / videos
+- [ ] printing
+- [ ] cloud services
+- [ ] other requirements
+
+### (2) operational requirements: what will be needed for this to work?
+- [ ] systems oberservability / monitoring
+- [ ] remote and central management
+- [ ] software upgrades
+- [ ] administration and support
+- [ ] backup and recovery strategy
+
+### (3) inventory: what do you have?
 - [ ] make table of all hardware devices
 - [ ] make table of all used software and their sources
 - [ ] make table of all used cloud accounts (in password manager)
@@ -14,12 +32,12 @@
     - servers
     - client
     
-### (2) secure configurations
+### (4) secure configurations: how do you set it up?
 - [ ] secure configuration per device using [TTP.csv](https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv)
 - [ ] secure configuration per user using [TTP.csv](https://github.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/blob/master/TTP.csv)
 - [ ] verify connfigurations
 
-### (3) user training
+### (5) user training: what do users need to know?
 - [ ] how to boot encryped devices
 - [ ] how to unlock devices/user account
 - [ ] how to use 2FA

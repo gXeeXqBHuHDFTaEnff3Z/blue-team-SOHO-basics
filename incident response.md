@@ -1,3 +1,7 @@
+### something isn't working
+ - [ ] execute PSR.exe and let it record what is happening
+ - send the result to incident responder
+
 ### ransomware
 - [ ] decide on involvement of government agencies 
 - [ ] identify likely way of compromise

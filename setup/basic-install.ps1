@@ -24,41 +24,41 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 # sources: https://chocolatey.org/packages
 choco install vcredist140 # Microsoft Visual C++ Redistributable for Visual Studio
 # browser and addons:
-choco install firefox
-choco install ublockorigin-firefox
-choco install noscript
-choco install tor-browser
+choco install firefox --confirm
+choco install ublockorigin-firefox --confirm
+choco install noscript --confirm
+choco install tor-browser --confirm
 # security:
-choco install shutup10
-choco install patch-my-pc
-choco install keepass
-choco install veracrypt
+choco install shutup10 --confirm
+choco install patch-my-pc --confirm
+choco install keepass --confirm
+choco install veracrypt --confirm
 # message communication:
-choco install signal
-choco install thunderbird
+choco install signal --confirm
+choco install thunderbird --confirm
 # productivity tools:
 choco install notepadplusplus --confirm
-choco install 7zip
-choco install jre8
-choco install libreoffice-fresh
-choco install winmerge
-choco install mp3tag
-choco install freemind
+choco install 7zip --confirm
+choco install jre8 --confirm
+choco install libreoffice-fresh --confirm
+choco install winmerge --confirm
+choco install mp3tag --confirm
+choco install freemind --confirm
 # media:
-choco install vlc
-choco install foxitreader
-choco install pdfcreator
-choco install gimp
-choco install paint.net
-choco install youtube-dl
-choco install audacity
-choco install audacity-lame
+choco install vlc --confirm
+choco install foxitreader --confirm
+choco install pdfcreator --confirm
+choco install gimp --confirm
+choco install paint.net --confirm
+choco install youtube-dl --confirm
+choco install audacity --confirm
+choco install audacity-lame --confirm
 # sysadmin tools:
-choco install teamviewer
-choco install sysinternals
-# choco install unetbootin
+choco install teamviewer --confirm
+choco install sysinternals --confirm
+# choco install unetbootin --confirm
 # latex:
-# choco install miktex
-# choco install texmaker
+# choco install miktex --confirm
+# choco install texmaker --confirm
 # gaming:
-# choco install steam
+# choco install steam --confirm

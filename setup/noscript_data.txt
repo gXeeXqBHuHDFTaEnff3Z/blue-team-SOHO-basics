@@ -77,10 +77,27 @@
         "§:githubassets.com",
         "§:repetico.de",
         "§:bitbucket.org",
-        "§:d301sr5gafysq2.cloudfront.net",
         "§:meinestadt.de",
         "§:erneuerbare-energien.de",
-        "§:draw.io"
+        "§:draw.io",
+        "§:kuketz-blog.de",
+        "§:gsmmap.org",
+        "§:greynoise.io",
+        "§:amazon.de",
+        "§:ssl-images-amazon.com",
+        "§:synology.com",
+        "§:premiumsim.de",
+        "§:check24.de",
+        "§:blau.de",
+        "§:posteo.de",
+        "§:wikipedia.org",
+        "§:ytmp3.mobi",
+        "ytmp3.mobi",
+        "§:ymcdn.website",
+        "§:versus.com",
+        "§:microsoft.com",
+        "§:current-vacancies.com",
+        "§:chocolatey.org"
       ],
       "untrusted": [],
       "custom": {
@@ -120,7 +137,6 @@
     "showCountBadge": true,
     "showFullAddresses": false,
     "storage": "local",
-    "uuid": "96539e31-99ab-4fb3-bec8-379069290755"
   },
   "sync": {
     "global": false,

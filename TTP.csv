@@ -17,6 +17,7 @@ status,classification,category,TTP,source
 ,Everybody,Client,limit notifications to necessary apps,
 ,Everybody,Client,set mobile Device SIM PIN,
 ,Everybody,Android,messenger: signal,https://twitter.com/Snowden/status/986277159252750336
+,Everybody,Windows,disable windows spyware,https://www.oo-software.com/de/shutup10# 
 ,Everybody,Windows,disable persistent bloatware,https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg
 ,Everybody,Windows,disable telemetry,https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html
 ,Everybody,Windows,Bitlocker: enforce software-crypt and enable,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives

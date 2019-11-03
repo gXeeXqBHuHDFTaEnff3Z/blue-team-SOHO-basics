@@ -22,7 +22,8 @@ status,classification,category,TTP,source
 ,Everybody,Windows,Bitlocker: enforce software-crypt and enable,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives
 ,Everybody,Windows,Bitlocker pre boot auth („Start-PIN“),https://www.howtogeek.com/262720/how-to-enable-a-pre-boot-bitlocker-pin-on-windows/
 ,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
-,Everybody,Windows,install basic software and keep it updated,https://ninite.com
+,Everybody,Windows,apps: install basics,https://ninite.com
+,Everybody,Windows,apps: automate updates,https://patchmypc.com/home-updater-download
 ,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
 ,Everybody,Network,"Hardening: limit network protocols, ports, services",

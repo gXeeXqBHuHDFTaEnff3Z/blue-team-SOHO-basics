@@ -31,6 +31,7 @@ status,classification,category,TTP,source
 ,Everybody,Network,firewall,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,
+,Everybody,Network,encrypted admin access only (no telnet/http, etc.),https://routersecurity.org/checklist.php
 ,Everybody,Network,DECT encryption,
 ,Everybody,Website,automatic security check,https://www.immuniweb.com/free/
 ,Everybody,Website,automatic security check II,https://observatory.mozilla.org/
@@ -65,6 +66,9 @@ status,classification,category,TTP,source
 ,Harder,Network,guest access wlan (limited internet acess),
 ,Harder,Network,secondary internet access (via mobile carrier),
 ,Harder,Network,central data storage,https://nextcloud.com/install/#instructions-server
+,Harder,Network,audit logs,https://routersecurity.org/checklist.php
+,Harder,Network,WLAN on/off button,https://routersecurity.org/checklist.php
+,Harder,Network,block spooky ip adress ranges,
 ,Serious,User,OPSEC,https://twitter.com/Snowden/status/1165395195476791299
 ,Serious,Client,Qubes OS (whonix/TOR),https://www.qubes-os.org/downloads/
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/
@@ -78,3 +82,4 @@ status,classification,category,TTP,source
 ,Serious,Network,"disable wireless access (WLAN, Bluetooh, DECT)",
 ,Serious,Network,VPN IPSEC,https://openvpn.net/
 ,Serious,Network,honeypots,
+,Serious,Network,restrict admin access to unassigned ip,https://routersecurity.org/checklist.php

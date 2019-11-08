@@ -13,3 +13,6 @@ https://galaxy.ansible.com/home
 <code>
   Get-Content basic-install.ps1 | PowerShell.exe -noprofile - 
 </code>
+
+(4) install will be in
+C:\ProgramData\chocolatey\lib

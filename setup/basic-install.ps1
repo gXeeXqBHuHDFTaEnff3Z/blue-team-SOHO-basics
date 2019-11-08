@@ -1,17 +1,6 @@
 # please start this script in a powershell windows with admin rights
 # allow script execution
-$str1 = Get-ExecutionPolicy | Out-String
-$str2 = "Restricted"
-Write-Host $str1
-IF (Compare-Object $str1 $str2)
-{
-    Write-Host "policy is fine as it is"   
-}
-ELSE
-{
-    Write-Host "changing policy..."  
-    Set-ExecutionPolicy Bypass -Scope Process
-}
+Set-ExecutionPolicy Bypass -Scope Process
 
 # remove all windows apps except calculator
 Get-AppxPackage -AllUsers | where-object {$_.name -notlike "*Store*" -and $_.name -notlike "*Calculator*"} | Remove-AppxPackage -erroraction silentlycontinue

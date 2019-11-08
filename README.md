@@ -1,5 +1,11 @@
 # Tactics, Techniques, and Procedures for SOHO [blue team](https://en.wikipedia.org/wiki/Blue_team_(computer_security))s
 
+<center>
+  <a href="https://github.com/FoxAuth/FoxAuth/">
+    <img src="https://img.shields.io/github/languages/code-size/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics" alt="codesize" />
+  </a>
+</center>
+
 This repository is a curated collection for cybersecurity defenders in the Small Office / Home Office environment, which means we only include things that...
 
 - are cheap or free of charge (< 100 US$ at max)

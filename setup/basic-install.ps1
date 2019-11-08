@@ -1,7 +1,17 @@
-# please start this script in a powershell windows with admin rights
-# allow script execution
-Set-ExecutionPolicy Bypass -Scope Process
-
+<#
+.Synopsis
+   installs basic windows software
+.DESCRIPTION
+   will install
+   - firefox with addons
+   - security apps: shutup10, patch-my-pc, adwcleaner, keepass, veracrypt
+   - messaging apps: signal, thunderbird
+   - productivity apps: notepad++, 7zip, jre8, libreoffice, winmerge, mp3tag, freemind
+   - media apps: vlc, pdfreader+creator, gimp, paint.net, youtube-dl, audacity
+   - sysadmin apps: teamviewer, sysinternals
+.EXAMPLE
+   execute in powershell after installing boxstarter
+#>
 # remove all windows apps except calculator
 # Get-AppxPackage -AllUsers | where-object {$_.name -notlike "*Store*" -and $_.name -notlike "*Calculator*"} | Remove-AppxPackage -erroraction silentlycontinue
 # Get-AppxProvisionedPackage -online | where-object {$_.displayname -notlike "*Store*" -and $_.displayname -notlike "*Calculator*"} | Remove-AppxProvisionedPackage -online -erroraction silentlycontinue

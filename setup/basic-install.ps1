@@ -65,6 +65,7 @@ choco install audacity-lame --confirm
 choco install teamviewer --confirm
 choco install sysinternals --confirm
 # choco install unetbootin --confirm
+# choco install screentogif
 # latex:
 # choco install miktex --confirm
 # choco install texmaker --confirm

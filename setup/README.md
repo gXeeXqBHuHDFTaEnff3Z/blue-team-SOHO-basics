@@ -10,6 +10,6 @@ https://galaxy.ansible.com/home
   
 (3) execute basic-install.ps1 from powershell
 
-<code></code><code>PowerShell  
+<code>PowerShell  
   Get-Content basic-install.ps1 | PowerShell.exe -noprofile - 
-</code><code></code>
+</code>

@@ -38,6 +38,7 @@ choco install tor-browser --confirm
 # security:
 choco install shutup10 --confirm
 choco install patch-my-pc --confirm
+choco install adwcleaner --confirm
 choco install keepass --confirm
 choco install veracrypt --confirm
 # message communication:

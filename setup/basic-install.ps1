@@ -66,3 +66,6 @@ Install-WindowsUpdate
 # windows taskbar config
 Set-TaskbarOptions -Lock -AlwaysShowIconsOn
 
+# relock powershell policy
+Set-ExecutionPolicy Restricted
+

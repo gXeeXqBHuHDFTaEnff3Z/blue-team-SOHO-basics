@@ -25,6 +25,7 @@ status,classification,category,TTP,source
 ,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
 ,Everybody,Windows,apps: install basics,https://ninite.com
 ,Everybody,Windows,apps: automate updates,https://patchmypc.com/home-updater-download
+,Everybody,Windows,independent adware/spyware removal,https://de.malwarebytes.com/adwcleaner/
 ,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
 ,Everybody,Network,"Hardening: limit network protocols, ports, services",

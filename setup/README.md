@@ -10,6 +10,7 @@ https://galaxy.ansible.com/home
 
 <code>
   cd %USERPROFILE%\Downloads
+  
   curl https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/setup/basic-install.ps1
   
   Get-Content basic-install.ps1 | PowerShell.exe -noprofile - 

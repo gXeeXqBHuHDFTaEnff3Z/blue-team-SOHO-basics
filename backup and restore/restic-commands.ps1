@@ -10,7 +10,7 @@ $pass = Read-Host 'What is your password?' -AsSecureString
 .\restic_*.exe init -r "restic-repo" --password-file  $passfile
 
 # backup <SOURCE> to respository
-.\restic_*.exe -r "restic-repo" --verbose backup "<SOURCE>"  --password-file  $passfile
+.\restic_*.exe -r "restic-repo" backup "<SOURCE1>" "<SOURCE2>" --password-file  $passfile
 
 # forget old backups
 # for the last 30 days, keep one each

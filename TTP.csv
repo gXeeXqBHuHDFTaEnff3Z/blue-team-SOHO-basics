@@ -34,7 +34,7 @@ status,classification,category,TTP,source
 ,Everybody,Network,firewall,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,
-,Everybody,Network,encrypted admin access only (no telnet/http, etc.),https://routersecurity.org/checklist.php
+,Everybody,Network,"encrypted admin access only (no telnet/http, etc.)",https://routersecurity.org/checklist.php
 ,Everybody,Network,DECT encryption,
 ,Everybody,Website,automatic security check,https://www.immuniweb.com/free/
 ,Everybody,Website,automatic security check II,https://observatory.mozilla.org/

@@ -24,7 +24,7 @@ status,classification,category,TTP,source
 ,Everybody,Windows,disable telemetry,https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4_node.html
 ,Everybody,Windows,Bitlocker: enforce software-crypt and enable,https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj679890(v=ws.11)#configure-use-of-hardware-based-encryption-for-fixed-data-drives
 ,Everybody,Windows,Bitlocker pre boot auth („Start-PIN“),https://www.howtogeek.com/262720/how-to-enable-a-pre-boot-bitlocker-pin-on-windows/
-,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.heise.de/newsticker/meldung/Windows-10-Microsoft-kriegt-Bitlocker-Nachschluessel-frei-Cloud-3056977.html
+,Everybody,Windows,Bitlocker: verify no key in the cloud,https://www.ghacks.net/2015/12/30/find-out-if-microsoft-saved-encryption-recovery-keys-in-the-cloud/
 ,Everybody,Windows,apps: install basics,https://ninite.com
 ,Everybody,Windows,apps: automate updates,https://patchmypc.com/home-updater-download
 ,Everybody,Windows,independent adware/spyware removal,https://de.malwarebytes.com/adwcleaner/

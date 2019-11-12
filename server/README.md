@@ -1,6 +1,6 @@
 ### (1) requirements
 
-what should your serve be able to serve?
+what should your server be able to serve?
 
 - [ ] [cloud storage](https://docs.hanssonit.se/s/W6fMouPiqQz3_Mog/virtual-machines-vm/d/W6fMquPiqQz3_Moi/nextcloud-vm)
 - [ ] [e-mail](https://mailinabox.email/)

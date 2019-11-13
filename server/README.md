@@ -19,5 +19,7 @@ The configuration should be
   - infrastructure as code
   - idempotent
   - automatically tested as far as possible
+  
+  hardware: NUC8i3BEH
 
 https://www.redhat.com/en/blog/system-administrators-guide-getting-started-ansible-fast

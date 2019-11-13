@@ -1,4 +1,4 @@
-rem this script will backup the pictures and documents folders toa restic repo in OneDrive
+rem this script will backup the pictures and documents folders to a restic repo in Microsoft OneDrive (via local folder)
 rem assumes: 
 rem (1) OneDrive is enabled with default folder settings
 rem (2) restic.exe exists in current directory

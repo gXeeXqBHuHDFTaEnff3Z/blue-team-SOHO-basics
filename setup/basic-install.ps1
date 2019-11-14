@@ -9,6 +9,7 @@
    - productivity apps: notepad++, 7zip, jre8, libreoffice, winmerge, mp3tag, freemind
    - media apps: vlc, pdfreader+creator, gimp, paint.net, youtube-dl, audacity
    - sysadmin apps: teamviewer, sysinternals
+   some apps are commented out, because they are not for users in the "Everybody" category
 .EXAMPLE
    execute in powershell
 #>
@@ -25,7 +26,8 @@ choco install vcredist140 # Microsoft Visual C++ Redistributable for Visual Stud
 # browser and addons:
 choco install firefox --confirm
 choco install ublockorigin-firefox --confirm
-choco install noscript --confirm
+# TODO: privacy badger (has no choc packet as of 13.11.2019) 
+# choco install noscript --confirm
 choco install tor-browser --confirm
 # security:
 choco install checksum --confirm

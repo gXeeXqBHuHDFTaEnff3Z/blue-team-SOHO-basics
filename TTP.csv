@@ -7,6 +7,7 @@ status,classification,category,TTP,source
 ,Everybody,Client,disable unused apps,
 ,Everybody,Client,use password manager,https://keepass.info/download.html
 ,Everybody,Client,Browser: block third party cookies,https://support.mozilla.org/en-US/kb/disable-third-party-cookies
+,Everybody,Client,Browser: block recurring trackers,https://addons.mozilla.org/de/firefox/addon/privacy-badger17/
 ,Everybody,Client,Browser: Ad blocker,https://addons.mozilla.org/de/firefox/addon/ublock-origin/
 ,Everybody,Client,Browser: HTTPSEverywhere,https://www.eff.org/Https-Everywhere
 ,Everybody,Client,setup automatic encrypted backup,https://restic.net/

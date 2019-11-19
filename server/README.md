@@ -14,3 +14,6 @@ The configuration should be
   - automatically tested as far as possible
   
   hardware: NUC8i3BEH
+
+(1) https://www.turnkeylinux.org/ansible
+(2) ansible-galaxy install phill93.nextcloud

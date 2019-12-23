@@ -15,3 +15,5 @@ The configuration should be
 
 (1) https://www.turnkeylinux.org/ansible
 (2) ansible-galaxy install phill93.nextcloud
+
+https://lehrerfortbildung-bw.de/st_digital/netz/virtual/container/docker/index.html

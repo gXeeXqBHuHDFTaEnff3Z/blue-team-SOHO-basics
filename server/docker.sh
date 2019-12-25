@@ -10,9 +10,11 @@ docker pull pihole/pihole
 cd /srv/docker/pihole
 curl -O https://raw.githubusercontent.com/pi-hole/docker-pi-hole/master/docker_run.sh
 # change ports and remove timezone
-sed -i 's/80:80/80:81/g' docker_run.sh > docker_runx.sh
-sed -i 's/443:443/443:444/g' docker_run.sh
+sed -i 's/80:80/81:80/g' docker_run.sh
+sed -i 's/443:443/444:443/g' docker_run.sh
 sed -i '/TZ=/d' docker_run.sh
+# TODO: fix by unitpas
+# https://github.com/pi-hole/pi-hole/issues/2195
 chmod +x docker_run.sh
 ./docker_run.sh
 # nextcloud aufsetzen

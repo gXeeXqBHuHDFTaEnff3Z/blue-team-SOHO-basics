@@ -1,8 +1,7 @@
 # source[1]: https://lehrerfortbildung-bw.de/st_digital/netz/virtual/container/docker/index.html
 # source[2]: https://hub.docker.com/r/ownyourbits/nextcloudpi-x86
 # install docker
-apt-get install docker.io 
-apt-get install docker-compose
+apt-get install docker.io docker-compose
 # test install:
 # docker run hello-world
 # pihole aufsetzen

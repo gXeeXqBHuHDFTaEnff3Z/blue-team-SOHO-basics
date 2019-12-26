@@ -12,10 +12,15 @@ curl -O https://raw.githubusercontent.com/pi-hole/docker-pi-hole/master/docker_r
 sed -i 's/80:80/81:80/g' docker_run.sh
 sed -i 's/443:443/444:443/g' docker_run.sh
 sed -i '/TZ=/d' docker_run.sh
-# TODO: fix by unitpas
-# https://github.com/pi-hole/pi-hole/issues/2195
 chmod +x docker_run.sh
 ./docker_run.sh
+# fix webserver expecting localhost
+# source: https://github.com/pi-hole/pi-hole/issues/2195 (unitpas)
+docker exec -it pihole bash
+apt-get update
+apt-get install nano
+sed -i 's/$serverName = htmlspecialchars($_SERVER["HTTP_HOST"]);/$serverName = htmlspecialchars($_SERVER["SERVER_ADDR"]);/g' /var/www/html/pihole/index.php
+exit
 # nextcloud aufsetzen
 docker search nextcloud
 docker pull nextcloud

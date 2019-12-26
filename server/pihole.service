@@ -1,0 +1,13 @@
+[Unit]
+Description=Docker - Pihole container
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart='docker start pihole'
+ExecStop='docker stop pihole'
+
+[Install]
+WantedBy=default.target

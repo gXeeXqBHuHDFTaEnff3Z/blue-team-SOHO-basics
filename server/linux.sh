@@ -18,3 +18,5 @@ sudo apt-get install intel-microcode -y
 # source: https://twitter.com/kathyra_/status/1160812366293901314?lang=de
 echo "alias please='sudo \$(fc -ln -1)'" >> ~/.bashrc
 source ~/.bashrc
+# network config
+curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/interfaces /etc/network/interfaces

@@ -1,4 +1,7 @@
 #!/bin/bash
+# disable ipv6
+/sbin/sysctl -w net.ipv6.conf.all.disable_ipv6=1
+/sbin/sysctl -w net.ipv6.conf.default.disable_ipv6=1
 # basic os update
 apt-get update && apt-get upgrade
 # install basic tools

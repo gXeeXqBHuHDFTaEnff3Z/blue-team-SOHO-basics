@@ -21,9 +21,10 @@ apt-get update
 apt-get install nano
 sed -i 's/$serverName = htmlspecialchars($_SERVER["HTTP_HOST"]);/$serverName = htmlspecialchars($_SERVER["SERVER_ADDR"]);/g' /var/www/html/pihole/index.php
 exit
-# make run automatic at startup
-curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/pihole.service /etc/systemd/system/pihole.service
-systemctl enable pihole.service 
+# make run automatic at startup (if docker doesn't)
+# cd /etc/systemd/system/
+# curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/pihole.service
+# systemctl enable pihole.service 
 # nextcloud aufsetzen
 docker search nextcloud
 docker pull nextcloud

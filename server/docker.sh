@@ -29,14 +29,11 @@ exit
 # nextcloud aufsetzen
 docker pull ownyourbits/nextcloudpi-x86
 mkdir -p /srv/docker/nextcloud/data
-mkdir -p /srv/docker/nextcloud/config 
+mkdir -p /srv/docker/nextcloud/config
+cd /srv/docker/nextcloud/
 # docker run -d -p 4443:4443 -p 443:443 -p 80:80 -v ncdata:/data --name nextcloudpi ownyourbits/nextcloudpi-x86 10.0.0.10
-docker run -d --name nextcloud \
--p 80:80 \
--p 443:443 \
--v /srv/docker/nextcloud/data:/var/www/html/data \
--v /srv/docker/nextcloud/config:/var/www/html/config \
---restart=unless-stopped \
-nextcloud 
-# install pihole
+curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/nextcloudpi_docker_run.sh
+chmod +x nextcloudpi_docker_run.sh
+./nextcloudpi_docker_run.sh
+
 

@@ -32,8 +32,11 @@ mkdir -p /srv/docker/nextcloud/data
 mkdir -p /srv/docker/nextcloud/config
 cd /srv/docker/nextcloud/
 # docker run -d -p 4443:4443 -p 443:443 -p 80:80 -v ncdata:/data --name nextcloudpi ownyourbits/nextcloudpi-x86 10.0.0.10
-curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/nextcloudpi_docker_run.sh
-chmod +x nextcloudpi_docker_run.sh
-./nextcloudpi_docker_run.sh
+curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/nextcloud-compose.yaml
+PASS=`openssl rand -base64 14`
+sed -i "s/MYSQL_ROOT_PASSWORD=/MYSQL_ROOT_PASSWORD=${PASS}/g" nextcloud-compose.yaml
+PASS=`openssl rand -base64 14`
+sed -i "s/MYSQL_PASSWORD=/MYSQL_PASSWORD=${PASS}/g" nextcloud-compose.yaml
+docker-compose up -d
 
 

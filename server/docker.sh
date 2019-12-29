@@ -39,5 +39,10 @@ sed -i "s/MYSQL_ROOT_PASSWORD=/MYSQL_ROOT_PASSWORD=${PASS}/g" docker-compose.yam
 PASS=`openssl rand -base64 14`
 sed -i "s/MYSQL_PASSWORD=/MYSQL_PASSWORD=${PASS}/g" docker-compose.yaml
 docker-compose up -d
-
+# privoxy proxy server
+docker pull splazit/privoxy-alpine
+docker run -d --restart unless-stopped --name privoxy -p 8118:8118 splazit/privoxy-alpine
+# privoxy with TOR
+# docker pull dperson/torproxy
+# docker run -it -p 8118:8118 -p 9050:9050 -d dperson/torproxy
 

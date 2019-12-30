@@ -39,6 +39,9 @@ docker run -d --restart unless-stopped --name privoxy -p 8118:8118 splazit/privo
 # install privoxy with TOR
 docker pull dperson/torproxy
 docker run -it -p 8228:8228 -p 9050:9050 -d dperson/torproxy
-# get a shell in the proxy 
-# docker exec -it privoxy sh
-
+# get a shell in the proxy and set logging
+docker exec -it privoxy sh
+apk update
+apk add nano
+cd /etc/privoxy/
+nano config

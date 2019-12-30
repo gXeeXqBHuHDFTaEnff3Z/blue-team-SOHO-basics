@@ -2,9 +2,7 @@
 # source[2]: https://hub.docker.com/r/ownyourbits/nextcloudpi-x86
 # install docker
 apt-get install docker.io docker-compose
-# test install:
-# docker run hello-world
-# pihole aufsetzen
+# install pihole
 docker pull pihole/pihole
 mkdir -p /srv/docker/pihole
 cd /srv/docker/pihole
@@ -15,18 +13,14 @@ sed -i 's/443:443/444:443/g' docker_run.sh
 sed -i '/TZ=/d' docker_run.sh
 chmod +x docker_run.sh
 ./docker_run.sh
-# fix webserver expecting localhost
+# fix pihole webserver expecting localhost
 # source: https://github.com/pi-hole/pi-hole/issues/2195 (unitpas)
 docker exec -it pihole bash
 apt-get update
 apt-get install nano
 sed -i 's/$serverName = htmlspecialchars($_SERVER["HTTP_HOST"]);/$serverName = htmlspecialchars($_SERVER["SERVER_ADDR"]);/g' /var/www/html/pihole/index.php
 exit
-# make run automatic at startup (if docker doesn't)
-# cd /etc/systemd/system/
-# curl -O https://raw.githubusercontent.com/gXeeXqBHuHDFTaEnff3Z/blue-team-SOHO-basics/master/server/pihole.service
-# systemctl enable pihole.service 
-# nextcloud aufsetzen
+# install nextcloud
 docker pull ownyourbits/nextcloudpi-x86
 docker pull mariadb
 mkdir -p /srv/docker/nextcloud/data
@@ -39,10 +33,12 @@ sed -i "s/MYSQL_ROOT_PASSWORD=/MYSQL_ROOT_PASSWORD=${PASS}/g" docker-compose.yam
 PASS=`openssl rand -base64 14`
 sed -i "s/MYSQL_PASSWORD=/MYSQL_PASSWORD=${PASS}/g" docker-compose.yaml
 docker-compose up -d
-# privoxy proxy server
+# install privoxy proxy server
 docker pull splazit/privoxy-alpine
 docker run -d --restart unless-stopped --name privoxy -p 8118:8118 splazit/privoxy-alpine
-# privoxy with TOR
-# docker pull dperson/torproxy
-# docker run -it -p 8118:8118 -p 9050:9050 -d dperson/torproxy
+# install privoxy with TOR
+docker pull dperson/torproxy
+docker run -it -p 8228:8228 -p 9050:9050 -d dperson/torproxy
+# get a shell in the proxy 
+# docker exec -it privoxy sh
 

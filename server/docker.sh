@@ -45,3 +45,5 @@ apk update
 apk add nano
 cd /etc/privoxy/
 nano config
+# see the log
+cd /var/log/privoxy/

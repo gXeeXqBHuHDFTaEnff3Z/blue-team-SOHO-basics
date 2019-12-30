@@ -33,6 +33,7 @@ sed -i "s/MYSQL_ROOT_PASSWORD=/MYSQL_ROOT_PASSWORD=${PASS}/g" docker-compose.yam
 PASS=`openssl rand -base64 14`
 sed -i "s/MYSQL_PASSWORD=/MYSQL_PASSWORD=${PASS}/g" docker-compose.yaml
 docker-compose up -d
+docker-compose logs
 # install privoxy proxy server
 docker pull splazit/privoxy-alpine
 docker run -d --restart unless-stopped --name privoxy -p 8118:8118 splazit/privoxy-alpine

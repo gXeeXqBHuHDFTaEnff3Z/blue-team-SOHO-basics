@@ -6,6 +6,8 @@ echo "alias please='sudo \$(fc -ln -1)'" >> ~/.bashrc
 source ~/.bashrc
 ### admin config ###
 su
+# add sbin to root path
+export PATH=$PATH:/usr/local/sbin
 # disable ipv6
 /sbin/sysctl -w net.ipv6.conf.all.disable_ipv6=1
 /sbin/sysctl -w net.ipv6.conf.default.disable_ipv6=1

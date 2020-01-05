@@ -34,6 +34,7 @@ PASS=`openssl rand -base64 14`
 sed -i "s/MYSQL_PASSWORD=/MYSQL_PASSWORD=${PASS}/g" docker-compose.yaml
 docker-compose up -d
 docker-compose logs
+# data will be in ./var/lib/docker/volumes/nextcloud_data/_data/<username>/files/
 ### install privoxy proxy server ###
 docker pull splazit/privoxy-alpine
 docker run -d --restart unless-stopped --name privoxy -p 8118:8118 splazit/privoxy-alpine
@@ -47,8 +48,7 @@ apk add nano
 cd /etc/privoxy/
 nano config
 # see the log
-# cd /var/log/privoxy/
-# cat privoxy.log
+docker inspect --format='{{.LogPath}}' <container ID>
 ### samba server ###
 # source: https://hub.docker.com/r/dperson/samba
 docker run -it -p 139:139 -p 445:445 -d dperson/samba -p \

@@ -31,7 +31,7 @@ status,classification,category,TTP,source
 ,Everybody,Windows,independent adware/spyware removal,https://de.malwarebytes.com/adwcleaner/
 ,Everybody,Network,"DNS server (ISP, 1.1.1.1, 9.9.9.9)",
 ,Everybody,Network,strong wpa2/3 authentication,
-,Everybody,Network,"Hardening: limit network protocols, ports, services",
+,Everybody,Network,"Hardening: limit network protocols, ports, services (WPAD, IPvX)",
 ,Everybody,Network,firewall,
 ,Everybody,Network,disable upnp,
 ,Everybody,Network,disable WPS,

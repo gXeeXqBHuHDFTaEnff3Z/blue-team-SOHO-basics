@@ -61,7 +61,7 @@ status,classification,category,TTP,source
 ,Harder,Android,Signal with 2nd phone number,https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/
 ,Harder,Android,Signal: verify safety numbers with contacts,https://support.signal.org/hc/en-us/articles/360007060632
 ,Harder,Android,limit mobile data usage,
-,Harder,Android,VPN,https://f-droid.org/en/packages/de.blinkt.openvpn/
+,Harder,Android,VPN (VPNcilla or OpenVPN),https://f-droid.org/en/packages/de.blinkt.openvpn/
 ,Harder,Network,compartmenalization: VLANs,
 ,Harder,Network,DNS filter/proxy: pihole,https://github.com/pi-hole/pi-hole/#one-step-automated-install
 ,Harder,Network,DNS encryption (DNSSEC / DoT / DoH),

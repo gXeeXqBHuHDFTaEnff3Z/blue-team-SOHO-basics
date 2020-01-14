@@ -20,6 +20,7 @@ status,classification,category,TTP,source
 ,Everybody,Android,messenger: signal,https://twitter.com/Snowden/status/986277159252750336
 ,Everybody,Android,2FA app,https://f-droid.org/de/packages/org.shadowice.flocke.andotp/
 ,Everybody,Android,remove preinstalled apps (without root),https://www.heise.de/tipps-tricks/Android-Vorinstallierte-Apps-loeschen-ohne-Root-4324092.html
+,Everybody,Android,check apps for trackers,https://reports.exodus-privacy.eu.org/en/analysis/submit/
 ,Everybody,Android,deny network access via firewall,https://github.com/M66B/NetGuard/releases
 ,Everybody,Windows,disable windows spyware,https://www.oo-software.com/de/shutup10# 
 ,Everybody,Windows,disable persistent bloatware,https://gist.github.com/wdormann/49f1807431b0d5b5cd151337e6478f20#file-disable_win10_foistware-reg

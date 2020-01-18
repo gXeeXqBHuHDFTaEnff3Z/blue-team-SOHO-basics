@@ -50,9 +50,14 @@ nano config
 # see the log
 docker inspect --format='{{.LogPath}}' <container ID>
 ### samba server ###
+# mount usb 
+fdisk -l
+cd /mnt
+mkdir usb1
+mount /dev/sdb3 /mnt/usb1
 # source: https://hub.docker.com/r/dperson/samba
 docker run -it -p 139:139 -p 445:445 -d dperson/samba -p \
-            -v /path/to/directory:/mount \
+            -v /mnt/usb1:/mount \
             -u "example1;badpass" \
             -u "example2;badpass" \
             -s "public;/share" \

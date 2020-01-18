@@ -56,11 +56,8 @@ cd /mnt
 mkdir usb1
 mount /dev/sdb3 /mnt/usb1
 # source: https://hub.docker.com/r/dperson/samba
-docker run -it -p 139:139 -p 445:445 -d dperson/samba -p \
+docker run -it --name samba -p 139:139 -p 445:445 \
             -v /mnt/usb1:/mount \
-            -u "example1;badpass" \
-            -u "example2;badpass" \
-            -s "public;/share" \
-            -s "users;/srv;no;no;no;example1,example2" \
-            -s "example1 private share;/example1;no;no;no;example1" \
-            -s "example2 private share;/example2;no;no;no;example2"
+            -d dperson/samba -p
+# mount share
+docker exec -it samba samba.sh -s "video;/video"

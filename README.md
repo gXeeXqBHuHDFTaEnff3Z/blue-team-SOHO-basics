@@ -16,9 +16,9 @@ This repository is a curated collection for cybersecurity defenders in the Small
 ## Threat modeling
 In the SOHO environment, continouous IT security management is not a given and a fully fledged security liefecycle will rarely hold up in practice. So instead of a sophisticated threat model, we will use three common IT security threats, which will serve as representatives for their threat constituency. All measures in this repository are designed to defend against one or more of the following threats:
 
-(1) data loss or breach, due to hardware theft
-(2) data loss or breach, due to fully automated ransomare incident
-(3) data breach, due to fully automated surveillance collection (PRISM, Tempora)
+1. data loss or breach, due to hardware theft
+2. data loss or breach, due to fully automated ransomare incident
+3. data breach, due to fully automated surveillance collection (e.g. PRISM, Tempora)
 
 Note that our threat model does not include manual operations executed by offensive security personel or advanced persistent threads (APT).
 

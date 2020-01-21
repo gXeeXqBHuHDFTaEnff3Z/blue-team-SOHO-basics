@@ -1,5 +1,4 @@
-# source[1]: https://lehrerfortbildung-bw.de/st_digital/netz/virtual/container/docker/index.html
-# source[2]: https://hub.docker.com/r/ownyourbits/nextcloudpi-x86
+# source: https://lehrerfortbildung-bw.de/st_digital/netz/virtual/container/docker/index.html
 # install docker
 apt-get install docker.io docker-compose
 ### install pihole ###

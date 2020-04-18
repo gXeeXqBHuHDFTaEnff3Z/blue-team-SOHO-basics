@@ -60,7 +60,7 @@ status,classification,category,TTP,source
 ,Harder,Windows,disable unused ip protocols,https://support.microsoft.com/de-de/help/929852/guidance-for-configuring-ipv6-in-windows-for-advanced-users
 ,Harder,Windows,admin privileges only for sysadmins,
 ,Harder,Android,Signal with 2nd phone number,https://theintercept.com/2017/09/28/signal-tutorial-second-phone-number/
-,Harder,Android,Signal: verify safety numbers with contacts,https://support.signal.org/hc/en-us/articles/360007060632
+,Harder,Android,lock down Signal,https://freedom.press/training/locking-down-signal/
 ,Harder,Android,limit mobile data usage,
 ,Harder,Android,VPN (VPNcilla or OpenVPN),https://f-droid.org/en/packages/de.blinkt.openvpn/
 ,Harder,Android,Firewall despite VPN (requires root),https://www.kuketz-blog.de/afwall-wie-ich-persoenlich-die-android-firewall-nutze/

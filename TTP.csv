@@ -76,6 +76,7 @@ status,classification,category,TTP,source
 ,Harder,Network,audit logs,https://routersecurity.org/checklist.php
 ,Harder,Network,WLAN on/off button,https://routersecurity.org/checklist.php
 ,Harder,Network,block spooky ip adress ranges,
+,Harder,Client,sandbox mimicing to use sandbox avoidance against intrusions,https://mobile.twitter.com/GossiTheDog/status/1265192470691885060
 ,Serious,User,OPSEC,https://twitter.com/Snowden/status/1165395195476791299
 ,Serious,Client,Qubes OS (whonix/TOR),https://www.qubes-os.org/downloads/
 ,Serious,Client,Haven,https://guardianproject.github.io/haven/

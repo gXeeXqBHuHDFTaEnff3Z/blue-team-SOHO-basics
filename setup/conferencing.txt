@@ -1,0 +1,12 @@
+# microphone: optimise with AI
+https://www.nvidia.com/en-us/geforce/guides/nvidia-rtx-voice-setup-guide/
+
+# microphone: live monitoring
+https://www.youtube.com/watch?v=uStp7_uyLFg
+
+# video cheap: use your phone as webcam (droidcam)
+https://play.google.com/store/apps/details?id=com.dev47apps.droidcam
+
+# video good: use DSLR's HDMI-out into a USB capture card
+https://twitter.com/Snowden/status/1194346109554089984
+

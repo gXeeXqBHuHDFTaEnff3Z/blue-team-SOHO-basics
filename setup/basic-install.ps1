@@ -4,7 +4,7 @@
 .DESCRIPTION
    will install
    - firefox with addons
-   - security apps: shutup10, patch-my-pc, adwcleaner, keepass, veracrypt
+   - security apps: shutup10, patch-my-pc, adwcleaner, keepass, veracrypt, hardentools
    - messaging apps: signal, thunderbird
    - productivity apps: notepad++, 7zip, jre8, libreoffice, winmerge, mp3tag, freemind
    - media apps: vlc, pdfreader+creator, gimp, paint.net, youtube-dl, audacity
@@ -36,6 +36,7 @@ choco install patch-my-pc --confirm
 choco install adwcleaner --confirm
 choco install keepass --confirm
 choco install veracrypt --confirm
+choco install hardentools --confirm
 # message communication:
 choco install signal --confirm
 choco install thunderbird --confirm

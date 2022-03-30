@@ -8,3 +8,7 @@ cd /media/usbhdd
 df -h
 # sime file copy backup 
 ./bin/rsync -avh --progress /var/lib/docker/volumes/nextcloud_data/_data/Chris/files/ /media/usbhdd/
+# create repo
+restic init --repo /media/usbhdd/
+# backup repo
+restic -r /media/usbhdd/ backup /var/lib/docker/volumes/nextcloud_data/_data/Chris/files/

@@ -8,9 +8,9 @@ volumes:
 
 services:
   db:
-    image: mariadb
+    image: mariadb:latest
     command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
-    restart: always
+    restart: unless-stopped
     volumes:
       - db:/var/lib/mysql
     environment:
@@ -23,7 +23,7 @@ services:
       - NEXTCLOUD_ADMIN_PASSWORD=supersecret
 
   app:
-    image: nextcloud
+    image: nextcloud:latest
     ports:
       - 80:80
       - 443:443
@@ -33,7 +33,7 @@ services:
       - nextcloud:/var/www/html
       - config:/var/www/html/config
       - data:/var/www/html/data
-    restart: always
+    restart: unless-stopped
     environment:
       - MYSQL_ROOT_PASSWORD=supersecret
       - MYSQL_PASSWORD=supersecret

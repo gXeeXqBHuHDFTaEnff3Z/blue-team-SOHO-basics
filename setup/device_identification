@@ -1,0 +1,12 @@
+# this script writes device ids into a csv file to have a device management directory
+# serial number
+wmic bios get serialnumber >> devices.csv
+echo ";" >> devices.csv
+
+# windows hostname
+hostname >> devices.csv
+echo ";" >> devices.csv
+
+# linebreak
+echo: >> devices.csv
+
